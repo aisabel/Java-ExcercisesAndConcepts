@@ -3,7 +3,7 @@
 As <b>Test Automation Engineer</b>, there are many possibilities to use java combined with different frameworks, like Cucumber, RestAssured, JUnit, TestNG, Serenity, etc.</br></br>
   The reason to <b>share</b>? to help any tester/developer who wants to learn java from the very basic point of view.👩‍🏫 </br>
   So if it was usefull for you, give it a star 🌟 </br></br>
-  Also this repo was created to optimize my <b>own interview process</b> whenever people ask to showcase this kind of excercises 😃 </br>
+  Also this repo was created to optimize my <b>own interview process</b> whenever people ask to showcase this kind of excercises 😃
   instead of request again.  Did you get the hint? 😉  </br></p>
 
   <h2>Architecture folder structure</h2>
