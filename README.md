@@ -1,4 +1,4 @@
-Status: ![](https://github.com/aisabel/Java-PracticeExcercises/workflows/maven/badge.svg)
+Status: ![](https://github.com/aisabel/Java-PracticeExcercises/workflows/JavaCIwithMaven/badge.svg)
 <h2>Description</h2>
 <p align="justified">This java repository contains concepts and practical examples and some common excercises. This is java pure.</br></br>
 As <b>Test Automation Engineer</b>, there are many possibilities to use java combined with different frameworks, like Cucumber, RestAssured, JUnit, TestNG, Serenity, etc.</br></br>
