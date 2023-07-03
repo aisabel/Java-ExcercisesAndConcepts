@@ -25,7 +25,7 @@ jobs:
         java-version: '20'
         distribution: 'temurin'
         cache: maven
-        run: java/
+        run: java/**
     
     - name: Run pom file with Maven
       run: mvn -B test --file pom.xml
