@@ -25,16 +25,15 @@ jobs:
         java-version: '20'
         distribution: 'temurin'
         cache: maven
-        
-    #Skip default test package
-    #- name: Build
-    #  run: mvn --batch-mode -DskipTests package
-    - name: Test
-      run: mvn --batch-mode -Dmaven.test.failure.ignore=false test
+    - name: Cache Maven packages
+      uses: actions/cache@v2
+      with:
+          path: ~/.m2
+          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+          restore-keys: ${{ runner.os }}-m2
+    - name: Run tests with Maven
+      run: mvn -B test --file pom.xml
     
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
-
     - name: Report
       uses: dorny/test-reporter@v1
       if: always()
