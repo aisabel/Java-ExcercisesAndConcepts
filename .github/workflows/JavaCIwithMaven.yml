@@ -25,30 +25,9 @@ jobs:
         java-version: '20'
         distribution: 'temurin'
         cache: maven
-    - name: Cache Maven packages
-      uses: actions/cache@v2
-      with:
-          path: ~/.m2
-          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
-          restore-keys: ${{ runner.os }}-m2
+        run: java/
     
     - name: Run pom file with Maven
       run: mvn -B test --file pom.xml
       
-    - name: Install
-      run: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-      
-    - name: Clean install
-      run: mvn clean install
-      
-    - name: Run tests
-      run: mvn test -B
-      
-    - name: Report
-      uses: dorny/test-reporter@v1
-      if: always()
-      with:
-          name: Maven Tests
-          path: target/surefire-reports/*.xml
-          reporter: java-junit
-          fail-on-error: true
+  
