@@ -27,10 +27,10 @@ jobs:
         cache: maven
         
     #Skip default test package
-    - name: Build
-      run: mvn --batch-mode -DskipTests package
+    #- name: Build
+    #  run: mvn --batch-mode -DskipTests package
     - name: Test
-      run: mvn --batch-mode -Dmaven.test.failure.ignore=true test
+      run: mvn --batch-mode -Dmaven.test.failure.ignore=false test
     
     - name: Build with Maven
       run: mvn -B package --file pom.xml
