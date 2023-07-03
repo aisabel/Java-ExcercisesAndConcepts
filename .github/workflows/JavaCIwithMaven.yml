@@ -31,9 +31,19 @@ jobs:
           path: ~/.m2
           key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-m2
-    - name: Run tests with Maven
-      run: mvn -B test --file pom.xml
     
+    - name: Run pom file with Maven
+      run: mvn -B test --file pom.xml
+      
+    - name: Install
+      run: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+      
+    - name: Clean install
+      run: mvn clean install
+      
+    - name: Run tests
+      run: mvn test -B
+      
     - name: Report
       uses: dorny/test-reporter@v1
       if: always()
