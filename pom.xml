@@ -31,7 +31,7 @@
             <version>3.11.0</version>
          <configuration>
           <includes>
-            <include>**/*.java</include>
+            <include>"**/*.java"</include>
           </includes>
         </configuration>
         </plugin>
