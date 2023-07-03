@@ -25,9 +25,14 @@ jobs:
         java-version: '20'
         distribution: 'temurin'
         cache: maven
-        run: java ../BasicLoops/Arrays.java
-    
-    - name: Run pom file with Maven
+    - name: Cache Maven packages
+      uses: actions/cache@v2
+      with:
+          path: ~/.m2
+          key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
+          restore-keys: ${{ runner.os }}-m2
+          
+    - name: Run tests with Maven
       run: mvn -B test --file pom.xml
       
   
