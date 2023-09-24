@@ -19,7 +19,8 @@ As <b>Test Automation Engineer</b>, there are many possibilities to use java com
 
 <p>Note: Make sure to have java jdk for developers, configure JAVA_HOME environment variable as system variable, and also add the path to java bin folders in path variable</p>
 <p>Is also recommended to download the java jdk with installer, that way the java will be place directly in Program Files</p>
-<p>In your Intelij do not forget to select the java version you have downloaded</p>
+<p>In your Intelij IDE do not forget to select the java version you have downloaded</p>
+<p>This repository has been created using java jdk 20</p>
 
 <h2>Run Tests/Classes: </h2>
 <p>Clone, download or fork the project and open in your favorite IDE.</br>
