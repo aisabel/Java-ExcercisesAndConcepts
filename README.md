@@ -17,7 +17,9 @@ As <b>Test Automation Engineer</b>, there are many possibilities to use java com
 <ul><li><a href="https://www.jetbrains.com/idea/promo/?source=google&medium=cpc&campaign=9736965250&term=intellij%20idea&content=602143185826&gad=1&gclid=Cj0KCQjw7uSkBhDGARIsAMCZNJuE3WwSWnz_7kPysIMQC9JP2l7TWHNVUCyiX5mxDnYno_XwY4w9ViEaAiPqEALw_wcB">IntelliJ IDEA 2023.1.2 (Community Edition)</a></li>
 <li><a href="https://www.java.com/en/download/">java download</a></li></ul>
 
-<p>Note: Make sure to have java jdk for developers, configure JAVA_HOME environment variable</p>
+<p>Note: Make sure to have java jdk for developers, configure JAVA_HOME environment variable as system variable, and also add the path to java bin folders in path variable</p>
+<p>Is also recommended to download the java jdk with installer, that way the java will be place directly in Program Files</p>
+<p>In your Intelij do not forget to select the java version you have downloaded</p>
 
 <h2>Run Tests/Classes: </h2>
 <p>Clone, download or fork the project and open in your favorite IDE.</br>
