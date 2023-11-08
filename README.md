@@ -3,7 +3,7 @@
 <p align="justified">This java repository contains concepts and practical examples and some common exercises. This is java pure.</br></br>
 As <b>Test Automation Engineer</b>, there are many possibilities to use java combined with different frameworks, like Cucumber, RestAssured, JUnit, TestNG, Serenity, etc.</br></br>
   The reason to <b>share</b>? to help any tester/developer who wants to learn java from the very basic point of view.👩‍🏫 </br>
-  So if it is usefully for you as it is for me, give it a star 🌟 </br></br>
+  So if it is usefully for you as it is for me, give it a star 🌟 </br>
   Also this repo was created to optimize my <b>own interview process</b> whenever people ask to showcase this kind of exercises
   instead of request again.  Did you get the hint? 😉  </br></p>
 
