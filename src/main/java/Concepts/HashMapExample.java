@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class HashMapExample {
-    /*HashMap we map key and a value
+    /*HashMap we map key and a value hs(key,value)
         *Key is the index and value is the element
         *If unordered number is set in the key index then hashmap will create it in that index regardless.
         *Key as index is defined by programmer, is not an automatic assignation.

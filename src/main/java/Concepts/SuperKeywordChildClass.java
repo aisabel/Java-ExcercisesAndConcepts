@@ -25,10 +25,10 @@ String name ="javaTraining";
         //constructor in parent class should be always first line before child constructor
         super();
         System.out.println("Child class constructor");
-    };
+    }
 
 
-    public static void main(String [] args) {
+    public static void main(String[] args) {
 
         SuperKeywordChildClass cd = new SuperKeywordChildClass();
         //The result is giving preference to the local variable

@@ -1,7 +1,7 @@
 package otherExcercises;
 
 public class GDCofTwoNumbers {
-    /*Java program to find GCD of two
+    /*Java program to find GCD (greatest common factor) of two
       numbers using Euclidean algorithm
     */
         // Function to return gcd of x and y

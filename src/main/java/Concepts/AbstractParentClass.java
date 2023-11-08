@@ -8,6 +8,7 @@ public abstract class AbstractParentClass {
         *If there's any method which is abstract, then the class will be treated as abstract class.
         *
         * This is also called partial abstraction
+        * Abstraction is the process of hiding the implementation details of an object from its users.
 
      */
 
