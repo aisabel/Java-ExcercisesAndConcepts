@@ -1,19 +1,19 @@
-package otherExcercises;
+package CommonDataStructuresAndAlgorithms;
 
 public class SlidingWindow {
 /*
-The idea behind a sliding window is to consider only valid subarrays.
-Recall that a subarray can be defined by a left bound (the index of the first element)
+The idea behind a sliding window is to consider only valid sub-arrays.
+Recall that a sub-array can be defined by a left bound (the index of the first element)
 and a right bound (the index of the last element).
 In sliding window, we maintain two variables left and right,
-which at any given time represent the current subarray under consideration.
+which at any given time represent the current sub-array under consideration.
 
-Initially, we have left = right = 0, which means that the first subarray we look at
+Initially, we have left = right = 0, which means that the first sub-array we look at
 is just the first element of the array on its own.
 We want to expand the size of our "window", and we do that by incrementing right.
 When we increment right, this is like "adding" a new element to our window.
 
-But what if after adding a new element, the subarray becomes invalid?
+But what if after adding a new element, the sub-array becomes invalid?
 We need to "remove" some elements from our window until it becomes valid again.
 To "remove" elements, we can increment left, which shrinks our window.
 

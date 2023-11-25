@@ -6,12 +6,12 @@ package CommonDataStructuresAndAlgorithms;
        This means last element inserted in the list is the first one out.
 
        The stack data structure has the two most important operations that are push and pop.
-       *Push operation inserts an element into the stack
-       *Pop operation removes an element from the top of the stack.
-       *Search operation, searches the object in the stack from the top.
-       *Peek operation, looks at the element that is at the top in the stack.
+       *Push operation: inserts an element into the stack
+       *Pop operation: removes an element from the top of the stack.
+       *Search operation: searches the object in the stack from the top.
+       *Peek operation: looks at the element that is at the top in the stack. Just check but doesn't change any value.
 
-       Stacks are usefull in situations where you need to trace elements in a specific order:
+       Stacks are useful in situations where you need to trace elements in a specific order:
        such as mathematical expressions, browser history, or search algorithms, graphs and tree searches
 
      */
@@ -54,5 +54,16 @@ package CommonDataStructuresAndAlgorithms;
             System.out.println("=========================");
             System.out.println("Is stack empty?:"+pila.empty());// returns a boolean value (true/false)
 
+            System.out.println("=========================");
+            pila.insertElementAt(100,0); //insert element value 100 at position 1
+            System.out.println("Inserted element 100 at index 0");
+            System.out.println("Current elements: "+ pila);
+
+            System.out.println("=========================");
+            System.out.println("Does the stack contains 100 value? ="+ pila.contains(100)); //check and retrieve value
+
+            System.out.println("=========================");
+            System.out.println("Remove element 100 ="+pila.remove(0));
+            System.out.println("Current elements: "+ pila);
         }
     }
